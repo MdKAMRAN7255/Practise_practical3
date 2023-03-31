@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.display-2{
+    font-family: 'Heebo', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 55.152px;
+}
+.month{
+    font-family: 'Heebo', sans-serif !important;
+    font-weight: 300 !important;
+}
+.year{
+    font-family: 'Heebo', sans-serif !important;
+    font-weight: 300 !important;
+    color: rgb(108, 108, 108);
+}
+.dayName{
+    font-family: 'Heebo', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px;
+}
