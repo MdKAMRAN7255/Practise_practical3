@@ -1,7 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import './css/addButton.css';
+import './css/addButton.css'
 import Items from './Items';
-function AddButton() {
+
+function Practise() {
     const [show, setShow] = useState(false)
     const [data, setData] = useState("");
     const [task, setTask] = useState(() => {
@@ -42,12 +43,12 @@ function AddButton() {
         <>
             <Items list={task} setTask={setTask}/>
             <div className='d-flex justify-content-center bg-light'>
-                <div className='bg-light button_div d-flex justify-content-center align-items-center'>
+                <div className='bg-light button_div d-flex justify-content-center'>
                     {!show ? (<button className='btn btn-success addition' onClick={handleClick}>
                         +
                     </button>) :
                         (<input type='text' 
-                            className='inputText' 
+                            className='inputText py-2 pb-3 ps-2 mb-3' 
                             placeholder='Enter Your task' 
                             value={data} 
                             onChange={dataHanlder} 
@@ -61,4 +62,4 @@ function AddButton() {
 
 
 
-export default AddButton;
+export default Practise;
