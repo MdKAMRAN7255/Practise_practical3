@@ -47,7 +47,7 @@ function AddButton() {
                         +
                     </button>) :
                         (<input type='text' 
-                            className='inputText' 
+                            className='inputText ps-2 pb-2 mb-2' 
                             placeholder='Enter Your task' 
                             value={data} 
                             onChange={dataHanlder} 

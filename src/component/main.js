@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './css/main.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './Navbar';
-import Items from './Items';
 import AddButton from './AddButton';
 import Practise from './Practise';
 class Main extends Component {
@@ -12,7 +11,6 @@ class Main extends Component {
                 <div className='Todo_body d-flex justify-content-center align-items-center'>
                     <div className='Todo_component_conatainer bg-light mx-3 ps-3 ps-md-0 pe-md-3 mx-md-0'>
                         <Navbar />
-                        {/* <Items /> */}
                         <AddButton />
                         {/* <Practise /> */}
                     </div>
