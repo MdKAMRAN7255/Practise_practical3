@@ -19,3 +19,6 @@ input[type="text"]{
     border-color:  rgb(174, 173, 173) !important;
     outline: none;
 }
+#warning{
+    display: none;
+}

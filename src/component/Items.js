@@ -14,7 +14,7 @@ function Items(props) {
   };
   return ( 
         <>     
-          <div className='main_items-container bg-light mt-3'>
+          <div className='main_items-container bg-light mt-3 pe-1 pe-md-0'>
             <div className='list-conatainer bg-light'>
                 {props.list.length === 0 && (
                   <>

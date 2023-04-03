@@ -4,18 +4,24 @@
 }
 .list-conatainer{
     height: 100%;
-    overflow-y: scroll;
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
+    overflow-y: scroll; 
 }
-.list-conatainer::-webkit-scrollbar {
-    display: none;
+.list-conatainer::-webkit-scrollbar-track
+{
+	border-radius: 10px;
 }
 
-.list-conatainer {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+.list-conatainer::-webkit-scrollbar
+{
+	width: 5px;
 }
+
+.list-conatainer::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(186, 186, 186);
+}
+
 .not-checked-item, .checked-item {
     font-family: 'Heebo', sans-serif;
     font-family: 'Mukta', sans-serif;
@@ -46,4 +52,6 @@ input[type=checkbox]:checked{
     background-size: cover;
     border-radius: none;
     border: none;
+    padding-right: 1.5rem !important;
+    padding-bottom: 2rem !important;
 }
